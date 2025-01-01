@@ -8,23 +8,22 @@ import {
   html,
   css,
   reactjs,
-  redux,
   tailwind,
   nodejs,
-  mongodb,
+  fastapi,
   git,
-  figma,
   docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
-  carrent,
-  jobit,
-  tripguide,
-  threejs,
+  developer,
+  sql,
+  postgres,
+  python,
+  qms,
+  pms,
+  skstore,
+  gallerygaze,
+  turbotyping
 } from "../assets";
-
+// import developer from "../assets"
 export const navLinks = [
   {
     id: "about",
@@ -42,11 +41,11 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
+    title: "Full Stack Developer",
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "Python Developer",
     icon: mobile,
   },
   {
@@ -54,7 +53,7 @@ const services = [
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "Frontend Developer",
     icon: creator,
   },
 ];
@@ -77,12 +76,12 @@ const technologies = [
     icon: typescript,
   },
   {
-    name: "React JS",
-    icon: reactjs,
+    name: "Python",
+    icon: python,
   },
   {
-    name: "Redux Toolkit",
-    icon: redux,
+    name: "React JS",
+    icon: reactjs,
   },
   {
     name: "Tailwind CSS",
@@ -93,80 +92,53 @@ const technologies = [
     icon: nodejs,
   },
   {
-    name: "MongoDB",
-    icon: mongodb,
-  },
-  {
-    name: "Three JS",
-    icon: threejs,
+    name: "Fast Api",
+    icon: fastapi,
   },
   {
     name: "git",
     icon: git,
   },
   {
-    name: "figma",
-    icon: figma,
-  },
-  {
     name: "docker",
     icon: docker,
   },
+  {
+    name: "Postgres Sql",
+    icon: postgres,
+  },
+  {
+    name: "sql",
+    icon: sql,
+  } 
 ];
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
+    title: "Full Stack Intern",
+    company_name: "Panacloud",
+    icon: developer,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "Sep 2023 - Sep 2024",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Developed and maintained responsive, user-friendly, and visually appealing websites using frameworks and libraries",
+      "Collaborated with cross-functional teams to optimize website performance and user experience. ",
+      "Designed and implemented efficient APIs and managed databases using Node.js, Python, Fast API and PostgreSQL.",
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
+    title: "Backend Developer",
+    company_name: "Q-Solution",
+    icon: developer,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "Oct 2024 - Dec 2024",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Developed scalable backend solutions with Python, leveraging FastAPI for high-performance APIs.",
+      "Utilized Docker for efficient containerization and Redis for optimized caching, enhancing application performance.",
+      "Worked on various management systems, implementing robust features to meet business needs and improve user workflows.",
+      "Employed Test-Driven Development (TDD) with Pytest, ensuring reliable, maintainable code through unit testing.",
     ],
-  },
-  {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
-    iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
+  }
 ];
 
 const testimonials = [
@@ -198,67 +170,118 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Park Pro",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "A parking management system using FastAPI, PostgreSQL (Neon DB), SQLAlchemy, Redis, Pydantic, and Pytest for efficient queuing and testing.",
     tags: [
       {
-        name: "react",
+        name: "fastapi",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "pytest",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "redis",
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: pms,
+    source_code_link: "https://github.com/Salman-Aijaz/ParkPro",
   },
   {
-    name: "Job IT",
+    name: "Spot Queue",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Spot Queue with FastAPI, SQLAlchemy, PostgreSQL, and Redis. Integrated with third-party APIs, deployed via Docker, and tested with Pytest for optimal performance.",
     tags: [
       {
-        name: "react",
+        name: "fastapi",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "postgressql",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "redis",
         color: "pink-text-gradient",
       },
+      {
+        name: "docker",
+        color: "blue-text-gradient",
+      },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: qms,
+    source_code_link: "https://github.com/Salman-Aijaz/SpotQueue",
   },
   {
-    name: "Trip Guide",
+    name: "Turbo Typing",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "Developed an online typing speed test with Next.js, Tailwind CSS, Python, FastAPI, providing real-time results, efficient backend, and seamless user experience.",
     tags: [
       {
         name: "nextjs",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "fastapi",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "tailwind css",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: turbotyping,
+    source_code_link: "https://github.com/Salman-Aijaz/Turbo-Typing",
+  },
+  {
+    name: "Sk-Store",
+    description:
+      "Built with the MERN stack, this web app features a sleek design, intuitive admin panel, and scalable backend for efficient management.",
+    tags: [
+      {
+        name: "reactjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "node js",
+        color: "green-text-gradient",
+      },
+      {
+        name: "express js",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "mongo db",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: skstore,
+    source_code_link: "https://github.com/Salman-Aijaz/sk-store",
+  },
+  {
+    name: "Gallery Gaze",
+    description:
+      "Gallery Gaze combines art and AI, built with Next.js, TypeScript, ShadCN UI, and Tailwind CSS, offering sleek design and seamless image management.",
+    tags: [
+      {
+        name: "nextjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "typescript",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwind css",
+        color: "pink-text-gradient",
+      },
+
+    ],
+    image: gallerygaze,
+    source_code_link: "https://github.com/Salman-Aijaz/GalleryGaze",
   },
 ];
 
