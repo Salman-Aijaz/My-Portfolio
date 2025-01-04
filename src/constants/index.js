@@ -59,14 +59,14 @@ const services = [
 ];
 
 const technologies = [
-  {
-    name: "HTML 5",
-    icon: html,
-  },
-  {
-    name: "CSS 3",
-    icon: css,
-  },
+  // {
+  //   name: "HTML 5",
+  //   icon: html,
+  // },
+  // {
+  //   name: "CSS 3",
+  //   icon: css,
+  // },
   {
     name: "JavaScript",
     icon: javascript,
@@ -83,10 +83,10 @@ const technologies = [
     name: "React JS",
     icon: reactjs,
   },
-  {
-    name: "Tailwind CSS",
-    icon: tailwind,
-  },
+  // {
+  //   name: "Tailwind CSS",
+  //   icon: tailwind,
+  // },
   {
     name: "Node JS",
     icon: nodejs,
@@ -95,22 +95,22 @@ const technologies = [
     name: "Fast Api",
     icon: fastapi,
   },
-  {
-    name: "git",
-    icon: git,
-  },
-  {
-    name: "docker",
-    icon: docker,
-  },
-  {
-    name: "Postgres Sql",
-    icon: postgres,
-  },
-  {
-    name: "sql",
-    icon: sql,
-  } 
+  // {
+  //   name: "git",
+  //   icon: git,
+  // },
+  // {
+  //   name: "docker",
+  //   icon: docker,
+  // },
+  // {
+  //   name: "Postgres Sql",
+  //   icon: postgres,
+  // },
+  // {
+  //   name: "sql",
+  //   icon: sql,
+  // } 
 ];
 
 const experiences = [
