@@ -21,7 +21,8 @@ import {
   pms,
   skstore,
   gallerygaze,
-  turbotyping
+  turbotyping,
+  writeflow
 } from "../assets";
 // import developer from "../assets"
 export const navLinks = [
@@ -283,6 +284,31 @@ const projects = [
     image: gallerygaze,
     source_code_link: "https://github.com/Salman-Aijaz/GalleryGaze",
   },
+  {
+    name: "WriteFlow",
+    description:
+      "WriteFlow is a Node.js & Express backend with PostgreSQL, enabling efficient article creation, updates, and management with role-based access and robust validation. 🚀",
+    tags: [
+      {
+        name: "nodejs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "expressjs",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Jest",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "SQL",
+        color: "blue-text-gradient",
+      }
+    ],
+    image: writeflow,
+    source_code_link: "https://github.com/Salman-Aijaz/WriteFlow",
+  }
 ];
 
 export { services, technologies, experiences, testimonials, projects };

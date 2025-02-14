@@ -28,6 +28,8 @@ import qms from "./qms.jpg"
 import gallerygaze from "./gallery-gaze.png"
 import skstore from "./sk-store.png"
 import turbotyping from "./turbotyping.jpg"
+import writeflow from "./writeflow.png"
+
 export {
   logo,
   backend,
@@ -55,5 +57,6 @@ export {
   pms,
   turbotyping,
   gallerygaze,
-  skstore
+  skstore,
+  writeflow
 };
