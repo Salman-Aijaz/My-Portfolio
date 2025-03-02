@@ -287,7 +287,7 @@ const projects = [
   {
     name: "WriteFlow",
     description:
-      "WriteFlow is a Node.js & Express backend with PostgreSQL, enabling efficient article creation, updates, and management with role-based access and robust validation. 🚀",
+      "WriteFlow is a Node.js & Express backend with PostgreSQL, enabling article management with role-based access, validation, and real-time notifications for instant updates. 🚀",
     tags: [
       {
         name: "nodejs",
